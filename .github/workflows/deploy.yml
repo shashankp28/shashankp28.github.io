@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.16.0
-      
+
       - name: Install dependencies
         run: |
           cd my-portfolio
@@ -34,6 +34,9 @@ jobs:
         with:
           ref: deploy
           path: deploy
+
+      - name: Remove existing deploy artifacts
+        run: rm -rf deploy/*
 
       - name: Copy build artifacts to deploy branch
         run: cp -R my-portfolio/build/* deploy/
