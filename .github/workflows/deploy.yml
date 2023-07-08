@@ -21,14 +21,13 @@ jobs:
         with:
           node-version: 14
       
-      - name: Change Directory
-        run: cd my-portfolio
-      
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd my-portfolio
+          npm install
 
       - name: Build project
-        run: npm run build
+        run: cd my-portfolio && npm run build
 
       - name: Checkout deploy branch
         uses: actions/checkout@v2
@@ -37,7 +36,7 @@ jobs:
           path: deploy
 
       - name: Copy build artifacts to deploy branch
-        run: cp -R build/* deploy/
+        run: cp -R my-portfolio/build/* deploy/
 
       - name: Commit and push changes
         run: |
