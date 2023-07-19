@@ -1,5 +1,5 @@
 import React from "react";
-import "./components.css";
+import "./Works.css";
 
 export const Works = () => {
 	return (

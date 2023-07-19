@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    color: lightgreen;
+}
+
+.navcontent {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    height: 60px;
+    border-radius: 60px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.listitem {
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    height: 40px;
+    cursor: pointer;
+}

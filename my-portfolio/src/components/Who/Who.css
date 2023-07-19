@@ -1,0 +1,5 @@
+.who {
+    height: 100vh;
+    scroll-snap-align: center;
+    color: orange;
+}
