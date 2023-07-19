@@ -1,0 +1,14 @@
+.general {
+    height: 100vh;
+    background-image: url("/img/bg.jpg");
+    background-size: 100% 100%;
+    filter: brightness(70%);
+    background-repeat: no-repeat;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
