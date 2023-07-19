@@ -1,0 +1,27 @@
+.navbar {
+    color: purple;
+}
+
+.contact {
+    height: 100vh;
+    scroll-snap-align: center;
+    color: red;
+}
+
+.hero {
+    height: 100vh;
+    scroll-snap-align: center;
+    color: green;
+}
+
+.who {
+    height: 100vh;
+    scroll-snap-align: center;
+    color: orange;
+}
+
+.works {
+    height: 100vh;
+    scroll-snap-align: center;
+    color: yellow;
+}

@@ -39,7 +39,7 @@ jobs:
         run: rm -rf deploy/*
 
       - name: Copy build artifacts to deploy branch
-        run: cp -R my-portfolio/build/* deploy/
+        run: cp -R my-portfolio/dist/* deploy/
 
       - name: Commit and push changes
         run: |
