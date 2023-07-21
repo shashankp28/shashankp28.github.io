@@ -1,0 +1,4 @@
+- Add attributions to images and logos
+- Add GitHub top right
+- Make Nav bar global
+- Add global contants for Info

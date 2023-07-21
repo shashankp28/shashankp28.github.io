@@ -1,16 +1,21 @@
 import { Contact } from "./components/Contact/Contact";
-import { Hero } from "./components/Hero/Hero";
+import { Home } from "./components/Home/Home";
 import { Who } from "./components/Who/Who";
 import { Works } from "./components/Works/Works";
+import { NavBar } from "./components/NavBar/NavBar";
+
 import "./App.css";
 
 function App() {
 	return (
-		<div class="general">
-			<Hero />
-			<Who />
-			<Works />
-			<Contact />
+		<div className="page">
+			<NavBar />
+			<div className="general">
+				<Home />
+				<Who />
+				<Works />
+				<Contact />
+			</div>
 		</div>
 	);
 }
