@@ -1,8 +1,24 @@
 .navbar {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px 0px;
     color: lightgreen;
+    background-color: darkgreen;
+}
+
+.navcontent {
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .navcontent {
@@ -10,6 +26,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 button {
@@ -33,8 +50,16 @@ button:hover {
 }
 
 .logo {
-    height: 60px;
-    border-radius: 60px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.logo:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
 
 .list {
@@ -45,6 +70,13 @@ button:hover {
 
 .listitem {
     cursor: pointer;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    transition: box-shadow 0.1s ease;
+}
+
+.listitem:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
 .icons {

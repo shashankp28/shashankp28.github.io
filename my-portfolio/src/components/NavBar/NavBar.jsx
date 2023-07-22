@@ -3,20 +3,20 @@ import "./NavBar.css";
 
 export const NavBar = () => {
 	return (
-		<div class="navbar">
-			<div class="navcontent">
-				<div class="links">
-					<img src="/img/photo.jpg" alt="logo" class="logo" />
-					<ul class="list">
-						<li class="listitem">Home</li>
-						<li class="listitem">Studio</li>
-						<li class="listitem">Works</li>
-						<li class="listitem">Contact</li>
+		<div className="navbar">
+			<div className="navcontent">
+				<div className="links">
+					<img src="/img/photo.jpg" alt="logo" className="logo" />
+					<ul className="list">
+						<li className="listitem">Home</li>
+						<li className="listitem">Studio</li>
+						<li className="listitem">Works</li>
+						<li className="listitem">Contact</li>
 					</ul>
 				</div>
-				<div class="icons">
-					<img src="/img/search.png" alt="logo" class="icon" />
-					<button class="button">Click</button>
+				<div className="icons">
+					<img src="/img/search.png" alt="logo" className="icon" />
+					<button className="button">Click</button>
 				</div>
 			</div>
 		</div>
