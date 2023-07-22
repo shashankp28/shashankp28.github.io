@@ -8,10 +8,25 @@
 }
 
 .navcontent {
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.navcontent {
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 button {
