@@ -14,7 +14,7 @@
 .left h1 {
     font-family: 'NameFont';
     font-size: 50px;
-    color: green;
+    color: blue;
     text-align: center;
 }
 
@@ -30,6 +30,11 @@
     font: 1.3rem Inconsolata, monospace;
     text-shadow: 0 0 5px #C8C8C8;
     position: relative;
+    font-size: 20px;
+}
+
+.terminal pre {
+    white-space: pre-wrap;
 }
 
 .terminal::after {
@@ -45,10 +50,6 @@
             transparent 1px,
             transparent 2px);
     pointer-events: none;
-}
-
-.text-overlay {
-    
 }
 
 .right {

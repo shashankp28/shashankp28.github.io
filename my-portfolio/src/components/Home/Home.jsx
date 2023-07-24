@@ -3,23 +3,41 @@ import data from "../../constants.json";
 import "./Home.css";
 
 export const Home = () => {
-	const message = "$ "+data["introduction"];
-	const [textIndex, setTextIndex] = useState(2);
+	const messages = data["introduction"];
+	const [textIndex, setTextIndex] = useState(0);
+	const [lineIndex, setLineIndex] = useState(0);
 	useEffect(() => {
 		const type = () => {
-			if (textIndex < message.length - 1) {
-				setTextIndex(textIndex + 1);
+			if (lineIndex < messages.length) {
+				if (textIndex < messages[lineIndex].length) {
+					setTextIndex((prev) => prev + 1);
+				} else {
+					setLineIndex((prev) => prev + 1);
+					setTextIndex(0);
+				}
 			}
 		};
-		setTimeout(type, 50);
-	}, [textIndex]);
+		setTimeout(type, 15);
+	}, [lineIndex, textIndex]);
 
 	return (
 		<div className="home">
 			<div className="left">
 				<h1>Shashank P</h1>
 				<div className="terminal">
-					<p>{message.slice(0, textIndex + 1)}</p>
+					<pre>
+						{(() => {
+							let text = "";
+							for (let i = 0; i < lineIndex; i++) {
+								text += "$>  "+messages[i];
+								text += "\n\n";
+							}
+							if (lineIndex < messages.length) {
+								text += "$>  "+messages[lineIndex].substring(0, textIndex);								
+							}
+							return text;
+						})()}
+					</pre>
 				</div>
 			</div>
 			<div className="right">
