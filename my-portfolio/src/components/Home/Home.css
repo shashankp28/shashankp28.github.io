@@ -11,13 +11,6 @@
     align-items: center;
 }
 
-.left h1 {
-    font-family: 'NameFont';
-    font-size: 50px;
-    color: blue;
-    text-align: center;
-}
-
 .terminal {
     background-color: black;
     background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
