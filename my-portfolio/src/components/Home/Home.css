@@ -11,6 +11,13 @@
     align-items: center;
 }
 
+.left {
+    color: white;
+    padding-left: 300px;
+    perspective: 1000px;
+}
+
+
 .left h1 {
     font-family: 'NameFont';
     font-size: 50px;
@@ -22,7 +29,7 @@
     background-color: black;
     background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
     width: 100vh;
-    height: 60vh;
+    height: 20vh;
     margin: 0;
     overflow: hidden;
     padding: 2rem;
@@ -35,6 +42,7 @@
 
 .terminal pre {
     white-space: pre-wrap;
+    height: 20%;
 }
 
 .terminal::after {
@@ -54,37 +62,87 @@
 
 .right {
     color: white;
-    padding-left: 100px;
-    /* Add left padding of 100px */
+    padding-left: 150px;
     perspective: 1000px;
-    /* Add perspective for 3D effect */
+    padding-right: 300px;
 }
 
 .right img {
     border-radius: 1000px;
-    width: 450px;
+    width: 430px;
     transform: translateZ(0);
     box-shadow: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    &:hover {
-        transform: translateZ(100px);
-        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-    }
+}
 
-    &:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-        pointer-events: none;
-        transition: transform 0.3s ease;
-        transform: scale(0.9);
-    }
+.right img:hover {
+    transform: translateZ(100px);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
 
-    &:hover:hover::before {
-        transform: scale(1);
-    }
+.right img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    pointer-events: none;
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+}
+
+.right img:hover::before {
+    transform: scale(1);
+}
+
+.skills {
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.skills h1 {
+    font-family: 'NameFont';
+    font-size: 50px;
+    color: green;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.skill-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform 0.4s ease;
+}
+
+.skill-item:hover img {
+    transform: scale(1.4);
+}
+
+.skill-item span {
+    font-family: 'NameFont';
+    font-size: 18px;
+    color: white;
+    text-align: center;
 }

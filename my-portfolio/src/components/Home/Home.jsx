@@ -20,6 +20,8 @@ export const Home = () => {
 		setTimeout(type, 15);
 	}, [lineIndex, textIndex]);
 
+	const skills = data["skills"];
+
 	return (
 		<div className="home">
 			<div className="left">
@@ -38,6 +40,17 @@ export const Home = () => {
 							return text;
 						})()}
 					</pre>
+				</div>
+				<div className="skills">
+					<h1>Skills</h1>
+					<div className="skills-list">
+						{skills.map((skill, index) => (
+						<div className="skill-item" key={index}>
+							<img src={skill.image} alt={skill.name} />
+							<span>{skill.name}</span>
+						</div>
+						))}
+					</div>
 				</div>
 			</div>
 			<div className="right">

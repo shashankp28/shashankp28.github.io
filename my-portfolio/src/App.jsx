@@ -1,20 +1,20 @@
 import "./App.css";
-import { Contact } from "./components/Contact/Contact";
-import { Home } from "./components/Home/Home";
-import { Who } from "./components/Who/Who";
-import { Works } from "./components/Works/Works";
 import { NavBar } from "./components/NavBar/NavBar";
-import { Test } from "./components/Test/Test";
+import { Home } from "./components/Home/Home";
+import { Education } from "./components/Education/Education";
+import { Experience } from "./components/Experience/Experience";
+import { Projects } from "./components/Projects/Projects";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
 	return (
 		<div className="page">
 			<NavBar />
 			<div className="general">
-				{/* <Test /> */}
 				<Home />
-				<Who />
-				<Works />
+				<Education />
+				<Experience />
+				<Projects />
 				<Contact />
 			</div>
 		</div>
