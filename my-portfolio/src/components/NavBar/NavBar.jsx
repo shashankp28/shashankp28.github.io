@@ -9,14 +9,24 @@ export const NavBar = () => {
 					<img src="/img/photo.jpg" alt="logo" className="logo" />
 					<ul className="list">
 						<li className="listitem">Home</li>
-						<li className="listitem">Studio</li>
-						<li className="listitem">Works</li>
+						<li className="listitem">Education</li>
+						<li className="listitem">Experience</li>
+						<li className="listitem">Projects</li>
+						<li className="listitem">Publication</li>
 						<li className="listitem">Contact</li>
 					</ul>
 				</div>
-				<div className="icons">
-					<img src="/img/search.png" alt="logo" className="icon" />
-					<button className="button">Click</button>
+				<div class="icons">
+					<a href="https://github.com/shashankp28" target="_blank">
+						<img src="/icons/github.png" alt="GitHub" class="icon" />
+					</a>
+					<a href="https://www.linkedin.com/in/shashank-p-a05283224/" target="_blank">
+						<img src="/icons/linkedin.png" alt="LinkedIn" class="icon" />
+					</a>
+					<p class="contact-block">
+						<b class="contact">Contact:  </b>
+						<b> +91 9483303320  </b>
+					</p>
 				</div>
 			</div>
 		</div>
