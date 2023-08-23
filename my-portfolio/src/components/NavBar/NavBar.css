@@ -94,3 +94,7 @@ button:hover {
     font-size: 20px;
     color: black;
 }
+
+.contact-block b {
+    color: black;
+}

@@ -12,7 +12,6 @@ export const NavBar = () => {
 						<li className="listitem">Education</li>
 						<li className="listitem">Experience</li>
 						<li className="listitem">Projects</li>
-						<li className="listitem">Publication</li>
 						<li className="listitem">Contact</li>
 					</ul>
 				</div>
@@ -25,7 +24,7 @@ export const NavBar = () => {
 					</a>
 					<p class="contact-block">
 						<b class="contact">Contact:  </b>
-						<b> +91 9483303320  </b>
+						+91 9483303320
 					</p>
 				</div>
 			</div>
