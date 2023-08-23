@@ -52,10 +52,13 @@ button:hover {
 .logo {
     height: 40px;
     border-radius: 40px;
-    background-color: #007bff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.3s ease;
     cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.logo:hover {
+    transform: scale(1.3);
 }
 
 .logo:hover {
@@ -85,9 +88,15 @@ button:hover {
     gap: 30px;
 }
 
+
 .icon {
     height: 40px;
     cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.icon:hover {
+    transform: scale(1.4);
 }
 
 .contact {
