@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import data from "../../constants.json";
 import "./Home.css";
-import { Model } from "../3dModels/Brouche";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
 
 export const Home = () => {
 	const messages = data["introduction"];
@@ -26,6 +23,7 @@ export const Home = () => {
 	return (
 		<div className="home">
 			<div className="left">
+				<h1>Shashank P</h1>
 				<div className="terminal">
 					<pre>
 						{(() => {
@@ -43,11 +41,7 @@ export const Home = () => {
 				</div>
 			</div>
 			<div className="right">
-				<Canvas>
-					<OrbitControls enableZoom={false} />
-					<ambientLight intensity={1} />
-					<Model />
-				</Canvas>
+				<img src="/img/photo.jpg" alt="Profile Picture" />
 			</div>
 		</div>
 	);

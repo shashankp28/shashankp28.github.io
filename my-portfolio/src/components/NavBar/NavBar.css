@@ -82,10 +82,15 @@ button:hover {
 .icons {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .icon {
     height: 40px;
     cursor: pointer;
+}
+
+.contact {
+    font-size: 20px;
+    color: black;
 }
