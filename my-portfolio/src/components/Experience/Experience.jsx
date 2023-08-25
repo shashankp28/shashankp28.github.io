@@ -43,8 +43,9 @@ export const Experience = () => {
               </div>
               <div className="technologies">
                 {work.technologies.map((technology, idx) => (
-                  <div className="work-technologies">
+                  <div className="one-technology">
                     <img key={idx} src={technology.image} alt={technology.name} className="technology-icon" />
+                    <p className='technology-para'>{technology.name}</p>
                   </div>
                 ))}
               </div>

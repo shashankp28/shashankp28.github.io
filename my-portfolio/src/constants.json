@@ -57,16 +57,16 @@
                     "image": "/icons/python.png"
                 },
                 {
-                    "name": "Arista Switches",
-                    "image": "/icons/switch.png"
+                    "name": "C/C++",
+                    "image": "/icons/cpp.png"
                 }
             ]
         },
         {
-            "name": "Arista Networks",
-            "logo": "/icons/arista.png",
-            "start": "May 2023",
-            "end": "July 2023",
+            "name": "Quantrium",
+            "logo": "/icons/quantrium.png",
+            "start": "April 2022",
+            "end": "July 2022",
             "role": "Software Developement Intern",
             "descriptions": [
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
@@ -75,12 +75,16 @@
             ],
             "technologies": [
                 {
-                    "name": "Python",
-                    "image": "/icons/python.png"
+                    "name": "FastAPI",
+                    "image": "/icons/fastapi.png"
                 },
                 {
-                    "name": "Arista Switches",
-                    "image": "/icons/switch.png"
+                    "name": "MongoDB",
+                    "image": "/icons/mongodb.png"
+                },
+                {
+                    "name": "Docker",
+                    "image": "/icons/docker.png"
                 }
             ]
         }
