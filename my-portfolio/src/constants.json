@@ -15,5 +15,28 @@
         { "name": "Git", "image": "/icons/git.png"},
         { "name": "Docker", "image": "/icons/docker.png"},
         { "name": "NGINX", "image": "/icons/nginx.png"}
+    ],
+    "education": [
+        {
+            "name": "Indian Institute of Technology, Dharwad",
+            "start": 2020,
+            "end": 2024,
+            "description": "B.Tech in Computer Science and Engineering",
+            "score": "9.79/10"
+        },
+        {
+            "name": "Expert PU College, Mangalore",
+            "start": 2018,
+            "end": 2020,
+            "description": "12th Standard",
+            "score": "97.67%"
+        },
+        {
+            "name": "Kendriya Vidyalaya, Kodagu",
+            "start": 2008,
+            "end": 2018,
+            "description": "10th Standard",
+            "score": "95%"
+        }
     ]
 }

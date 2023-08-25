@@ -39,7 +39,7 @@ export const NavBar = () => {
 					</a>
 					<p className="contact-block">
 						<b className="contact">Contact:  </b>
-						+91 9483303320
+						<span className="phone-number">+91 9483303320</span>
 					</p>
 				</div>
 			</div>
