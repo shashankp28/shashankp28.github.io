@@ -9,7 +9,7 @@
 .general {
     position: absolute;
     height: 100vh;
-    background-image: url("/img/bg.jpg");
+    background-color: black;
     background-size: 100% 100%;
     filter: brightness(70%);
     background-repeat: no-repeat;
@@ -24,4 +24,5 @@
     &::-webkit-scrollbar {
         display: none;
     }
+    overflow-x: hidden;
 }

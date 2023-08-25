@@ -72,10 +72,16 @@ button:hover {
 }
 
 .listitem {
+    color:white;
     cursor: pointer;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
     transition: box-shadow 0.1s ease;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .listitem:hover {
@@ -106,4 +112,8 @@ button:hover {
 
 .contact-block b {
     color: black;
+}
+
+.phone-number {
+    color: white;
 }

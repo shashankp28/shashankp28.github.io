@@ -23,7 +23,7 @@ export const Home = () => {
 	const skills = data["skills"];
 
 	return (
-		<div className="home">
+		<div className="home" id="home">
 			<div className="left">
 				<h1>Shashank P</h1>
 				<div className="terminal">

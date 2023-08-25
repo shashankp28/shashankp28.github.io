@@ -8,11 +8,26 @@ export const NavBar = () => {
 				<div className="links">
 					<img src="/icons/gift.png" alt="logo" className="logo" />
 					<ul className="list">
-						<li className="listitem">Home</li>
-						<li className="listitem">Education</li>
-						<li className="listitem">Experience</li>
-						<li className="listitem">Projects</li>
-						<li className="listitem">Contact</li>
+						<a href="#home" onClick={() => scrollToElement("home")}>
+							<li className="listitem">
+									Home
+							</li>
+						</a>
+						<li className="listitem" >
+							<a href="#experience" onClick={() => scrollToElement("experience")}>
+								Experience
+							</a>
+						</li>
+						<a href="#projects" onClick={() => scrollToElement("projects")}>
+							<li className="listitem">
+								Projects
+							</li>
+						</a>
+						<a href="#contact" onClick={() => scrollToElement("contact")}>
+							<li className="listitem">
+								Contact
+							</li>
+						</a>
 					</ul>
 				</div>
 				<div className="icons">
@@ -24,7 +39,7 @@ export const NavBar = () => {
 					</a>
 					<p className="contact-block">
 						<b className="contact">Contact:  </b>
-						+91 9483303320
+						<span className="phone-number">+91 9483303320</span>
 					</p>
 				</div>
 			</div>
