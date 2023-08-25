@@ -5,16 +5,46 @@
         "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
     ],
     "skills": [
-        { "name": "Python", "image": "/icons/python.png"},
-        { "name": "C/C++", "image": "/icons/cpp.png"},
-        { "name": "Rust", "image": "/icons/rust.png"},
-        { "name": "MySQL", "image": "/icons/sql.png"},
-        { "name": "MongoDB", "image": "/icons/mongodb.png"},
-        { "name": "FastAPI", "image": "/icons/fastapi.png"},
-        { "name": "Tensorflow", "image": "/icons/tensorflow.png"},
-        { "name": "Git", "image": "/icons/git.png"},
-        { "name": "Docker", "image": "/icons/docker.png"},
-        { "name": "NGINX", "image": "/icons/nginx.png"}
+        {
+            "name": "Python",
+            "image": "/icons/python.png"
+        },
+        {
+            "name": "C/C++",
+            "image": "/icons/cpp.png"
+        },
+        {
+            "name": "Rust",
+            "image": "/icons/rust.png"
+        },
+        {
+            "name": "MySQL",
+            "image": "/icons/sql.png"
+        },
+        {
+            "name": "MongoDB",
+            "image": "/icons/mongodb.png"
+        },
+        {
+            "name": "FastAPI",
+            "image": "/icons/fastapi.png"
+        },
+        {
+            "name": "Tensorflow",
+            "image": "/icons/tensorflow.png"
+        },
+        {
+            "name": "Git",
+            "image": "/icons/git.png"
+        },
+        {
+            "name": "Docker",
+            "image": "/icons/docker.png"
+        },
+        {
+            "name": "NGINX",
+            "image": "/icons/nginx.png"
+        }
     ],
     "education": [
         {
@@ -87,6 +117,41 @@
                     "image": "/icons/docker.png"
                 }
             ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "This is a Project",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/icons/python.png",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://www.google.com/"
+        },
+        {
+            "title": "This is a Project",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/icons/python.png",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://www.google.com/"
+        },
+        {
+            "title": "This is a Project",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/icons/python.png",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://www.google.com/"
         }
     ]
 }
