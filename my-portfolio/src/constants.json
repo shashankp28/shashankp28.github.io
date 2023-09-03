@@ -1,8 +1,8 @@
 {
     "introduction": [
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+        "I'm a 7th-semester Computer Science and Engineering student at IIT Dharwad, I have experience programming in Python, C, C++ and Rust a strong interest in solving challenging problems",
+        "During my internships at Arista Networks and Quantrium Tech, I gained practical experience in backend software development, networking, and deploying solutions using Docker",
+        "I have experience leading team projects, including creating a Bus Tracking Application without specialized GPS equipment and an innovative Kepler Exoplanet Classification system"
     ],
     "skills": [
         {
@@ -77,9 +77,10 @@
             "end": "July 2023",
             "role": "Software Developement Intern",
             "descriptions": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "I tested and validated networking features such as Multi-Layer Switches, VxLAN, and MLAG",
+                "The internship involved devising and executing 14 product tests, demonstrating the compatibility of three key features",
+                "Installed and Executed the tests on existing Arista Proprietary Software & Hardware",
+                "I learnt about ensuring the reliability and performance of network solutions"
             ],
             "technologies": [
                 {
@@ -99,9 +100,9 @@
             "end": "July 2022",
             "role": "Software Developement Intern",
             "descriptions": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "I created an Authentication and Authorization frameowrk for APIs, and deployed using Docker",
+                "I used FastAPI, MongoDB, Docker, and Kafka to enhance web application efficiency",
+                "I adapted to various project management tools such as Jira, Confluence, and Bit-Bucket"
             ],
             "technologies": [
                 {
@@ -122,81 +123,90 @@
     "projects": [
         {
             "title": "NWKRTC Bus-Tracking",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "summary": "Bus Trackig Application for Govt. of Karnataka",
             "photo": "/img/nwkrtc.jpg",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "Led a team to create an end-to-end bus tracking application without use of specialized GPS devivce",
+                "The application was deployed on 1000+ buses, and the app has 500+ users",
+                "Used technologies such as Redis, NGINX and Docker to create a scalable solution"
             ],
             "link": "https://www.tracknwkrtc.in/"
         },
         {
             "title": "Grow-Simplee Delivery App",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "summary": "End-to-End Item Deilvery Management System",
             "photo": "/img/grow.jpg",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "Created a device to perform anamoly detection on an item using OpenCV and Tensorflow",
+                "Optimized delivery route algorithm using multi-processing (17s to 1s)",
+                "Won Bronze medal at Inter IIT Tech Meet 11.0 held at IIT Kanpur"
             ],
             "link": "https://github.com/Grow-Simple-2023"
         },
         {
             "title": "Kepler Exoplanet Classification",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "summary": "Classification of Exoplanets using orbit data from NASA's Kepler Space Telescope",
             "photo": "/img/kepler.jpg",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "Used a Random Forest Classifier to classify exoplanets with precision of 0.82 and F1-score 0.52",
+                "Made an intuitive web-app using Streamlit to visualize the data and results",
+                "Led a team of 5 and Won 1st place at Summer of Innovation 2022 held at IIT Dharwad"
             ],
             "link": "https://github.com/shashankp28/soi-space-ds"
         },
         {
             "title": "DPP Caching Algorithm",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "summary": "Online Caching with Fetching cost for Arbitrary Demand Pattern",
             "photo": "/img/dpp.jpg",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "An AI assisted caching algorithm that uses a neural network to predict future demand",
+                "The algorithm was tested on real-world data and showed a 10% improvement in performance",
+                "Conference paper selected for presentation at ICASSP 2023, Greece"
+
             ],
-            "link": "https://github.com/shashankp28/DPP-Cache"
+            "link": "https://ieeexplore.ieee.org/document/10097152/"
         },
         {
-            "title": "Wordle Bot",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-            "photo": "/img/wordle.png",
+            "title": "TruPen",
+            "summary": "A Simple Examination System",
+            "photo": "/img/trupen.png",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "An examination system capable of handling multiple subjects, teachers and students",
+                "A quiz system with various types of answering mechanisms, with performance tracking of students",
+                "A team project built with HTML, CSS, JS, PHP and MySQL"
             ],
-            "link": "https://github.com/shashankp28/Wordle-Bot"
+            "link": "https://github.com/niteeshchaudhary/TruPen"
         },
         {
             "title": "Martian Atmos",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "summary": "Martian soil analysis using data from NASA's Curiosity Rover",
             "photo": "/img/martian.png",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "Analyzed mass spectrometry data from the Curiosity Rover to determine the composition of Martian soil",
+                "Used data buckets and multi-class neural networks to predict organic molecules with an accuracy of 72%",
+                "Won 1st place at Summer of Innovation 2023 held at IIT Dharwad"
             ],
             "link": "https://github.com/shashankp28/martian-atoms"
         },
         {
             "title": "Employee Management System",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "summary": "Application to manage employees in an organization",
             "photo": "/img/intern.png",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "The application can track interns and employees and assign mentors to interns",
+                "Ability to assign projects to interns, track their progress and provide feedback",
+                "Built using React, FastAPI and MySQL"
             ],
             "link": "https://github.com/shashankp28/DBIS-Project"
         },
         {
             "title": "Drone Dash",
-            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "summary": "A drone navigation algorithm",
             "photo": "/img/drone.png",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+                "Built a drone navigation algorithm using a combination of Backtracking and Dijkstra's Algorithm",
+                "Used technologies such as ROS, PX4 autopilot, Gazebo and Python",
+                "Won 2nd place at Summer of Innovation 2023 held at IIT Dharwad"
             ],
             "link": "https://github.com/shashankp28/DroneDash-23"
         }
