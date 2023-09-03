@@ -12,7 +12,7 @@ export const Projects = () => {
         {projects.map((project, index) => (
           <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="project-block">
             <div className="project-content">
-              <img src={project.photo} alt={project.title} className="project-image" />
+              <img src={project.photo} alt={project.title} className="project-image" loading="lazy"/>
               <h2>{project.title}</h2>
               <p>{project.summary}</p>
               <ul>

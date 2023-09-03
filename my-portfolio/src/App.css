@@ -16,7 +16,7 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     overflow-y: auto;
-    top: 60px;
+    top: 6vh;
     left: 0;
     right: 0;
     bottom: 0;

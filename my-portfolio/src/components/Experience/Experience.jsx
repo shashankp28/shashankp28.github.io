@@ -27,7 +27,7 @@ export const Experience = () => {
           {workData.map((work, index) => (
             <div key={index} className="work-item">
               <div className="work-header">
-                <img src={work.logo} alt={work.name} className="work-logo" />
+                <img src={work.logo} alt={work.name} className="work-logo" loading="lazy"/>
                 <div className="work-details">
                   <h2>{work.name}</h2>
                   <p>{work.role}</p>
@@ -44,7 +44,7 @@ export const Experience = () => {
               <div className="technologies">
                 {work.technologies.map((technology, idx) => (
                   <div className="one-technology">
-                    <img key={idx} src={technology.image} alt={technology.name} className="technology-icon" />
+                    <img key={idx} src={technology.image} alt={technology.name} className="technology-icon" loading="lazy"/>
                     <p className='technology-para'>{technology.name}</p>
                   </div>
                 ))}

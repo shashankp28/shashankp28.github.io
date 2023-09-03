@@ -46,7 +46,7 @@ export const Home = () => {
 					<div className="skills-list">
 						{skills.map((skill, index) => (
 						<div className="skill-item" key={index}>
-							<img src={skill.image} alt={skill.name} />
+							<img src={skill.image} alt={skill.name} loading="lazy"/>
 							<span>{skill.name}</span>
 						</div>
 						))}
@@ -54,7 +54,7 @@ export const Home = () => {
 				</div>
 			</div>
 			<div className="right">
-				<img src="/img/photo.jpg" alt="Profile Picture" />
+				<img src="/img/photo.jpg" alt="Profile Picture" loading="lazy" />
 			</div>
 		</div>
 	);

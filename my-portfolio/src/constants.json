@@ -121,37 +121,74 @@
     ],
     "projects": [
         {
-            "title": "This is a Project",
+            "title": "NWKRTC Bus-Tracking",
             "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-            "photo": "/icons/python.png",
+            "photo": "/img/nwkrtc.jpg",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
             ],
-            "link": "https://www.google.com/"
+            "link": "https://www.tracknwkrtc.in/"
         },
         {
-            "title": "This is a Project",
+            "title": "Grow-Simplee Delivery App",
             "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-            "photo": "/icons/python.png",
+            "photo": "/img/grow.jpg",
             "description": [
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
             ],
-            "link": "https://www.google.com/"
+            "link": "https://github.com/Grow-Simple-2023"
         },
         {
-            "title": "This is a Project",
+            "title": "Kepler Exoplanet Classification",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/img/kepler.jpg",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://github.com/shashankp28/soi-space-ds"
+        },
+        {
+            "title": "DPP Caching Algorithm",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/img/dpp.jpg",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://github.com/shashankp28/DPP-Cache"
+        },
+        {
+            "title": "Wordle Bot",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/img/wordle.png",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://github.com/shashankp28/Wordle-Bot"
+        },
+        {
+            "title": "Martian Atmos",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/img/martian.png",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://github.com/shashankp28/martian-atoms"
+        },
+        {
+            "title": "Employee Management System",
             "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
             "photo": "/icons/python.png",
             "description": [
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
             ],
-            "link": "https://www.google.com/"
+            "link": "https://github.com/shashankp28/DBIS-Project"
         }
     ]
 }

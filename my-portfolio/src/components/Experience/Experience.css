@@ -1,15 +1,15 @@
 .experience {
     height: 100vh;
     scroll-snap-align: center;
-    color: black;
+    color: white;
     display: flex;
     align-items: center;
     position: relative;
 }
 
 .education {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10vh;
+    padding-right: 10vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 .education::before {
     content: '';
     position: absolute;
-    width: 8px;
+    width: 0.8vh;
     height: 50%;
     background-color: rgb(255, 255, 0);
     top: 25%;
@@ -30,28 +30,28 @@
 }
 
 .education h1 {
-    font-size: 50px;
-    margin: 10px 0;
-    margin-bottom: 50px;
+    font-size: 5vh;
+    margin: 1vh 0;
+    margin-bottom: 5vh;
     color: #51da4c;
 }
 
 .education-list {
     display: grid;
-    gap: 20px;
+    gap: 2vh;
 }
 
 .education-item {
-    border: 8px solid darkgreen;
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    margin-bottom: 100px;
+    border: 0.8vh solid rgb(124, 115, 101);
+    background-color: rgb(24, 26, 27);
+    padding: 1.5vh;
+    margin-bottom: 7vh;
     position: relative;
-    transition: transform 0.5s ease;
+    transition: transform 0.7s ease;
 }
 
 .education-item:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 .education-item .university {
@@ -60,25 +60,25 @@
 }
 
 .education-item .description {
-    color: black;
+    color: white;
 }
 
 .work {
-    border-left: 2px solid lightgreen;
-    padding-left: 200px;
-    margin-left: 20px;
+    border-left: 0.2vh solid lightgreen;
+    padding-left: 15vh;
+    margin-left: 10vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 10vh;
     width: 80vh;
 }
 
 .work::before {
     content: '';
     position: absolute;
-    width: 8px;
+    width: 0.8vh;
     height: 50%;
     background-color: rgb(255, 255, 0);
     top: 25%;
@@ -88,35 +88,35 @@
 }
 
 .work h1 {
-    font-size: 50px;
-    margin: 10px 0;
-    margin-bottom: 20px;
+    font-size: 5vh;
+    margin: 1vh 0;
+    margin-bottom: 2vh;
     color: #51da4c;
 }
 
 .work-list {
     display: grid;
-    gap: 20px;
+    gap: 2vh;
 }
 
 .work-item {
-    border: 8px solid darkgreen;
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    margin-bottom: 40px;
+    border: 0.8vh solid rgb(124, 115, 101);
+    background-color: rgb(24, 26, 27);
+    padding: 1.5vh;
+    margin-bottom: 4vh;
     position: relative;
     overflow: hidden;
     transition: transform 0.5s ease;
 }
 
 .work-item:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 .work-logo {
-    width: 70px;
-    margin-right: 20px;
-    border-radius: 50px;
+    width: 7vh;
+    margin-right: 2vh;
+    border-radius: 5vh;
 }
 
 .work-details h2 {
@@ -124,11 +124,11 @@
 }
 
 .work-descriptions {
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 .work-descriptions {
-    margin-top: 20px;
+    margin-top: 2vh;
     text-align: left;
 }
 
@@ -139,9 +139,9 @@
 
 .work-descriptions li {
     position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    font-size: 16px;
+    padding-left: 2vh;
+    margin-bottom: 1vh;
+    font-size: 1.6vh;
     line-height: 1.2;
 }
 
@@ -149,9 +149,9 @@
     content: "\25CF";
     position: absolute;
     left: 0;
-    top: 5px;
-    color: black;
-    font-size: 16px;
+    top: 0.5vh;
+    color: white;
+    font-size: 1.6vh;
 }
 
 .work-technologies {
@@ -167,9 +167,8 @@
 }
 
 .technology-icon {
-    height: 50px;
-    border-radius: 20px;
-    margin-right: 100px;
+    height: 5vh;
+    border-radius: 2vh;
 }
 
 .one-technology {
@@ -177,6 +176,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 0 2.5vh 0 2.5vh;
 }
 
 .technology-para {
