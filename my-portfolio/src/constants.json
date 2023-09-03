@@ -77,10 +77,10 @@
             "end": "July 2023",
             "role": "Software Developement Intern",
             "descriptions": [
-                "I tested and validated networking features such as Multi-Layer Switches, VxLAN, and MLAG",
+                "Tested and validated networking features such as Multi-Layer Switches, VxLAN, and MLAG",
                 "The internship involved devising and executing 14 product tests, demonstrating the compatibility of three key features",
                 "Installed and Executed the tests on existing Arista Proprietary Software & Hardware",
-                "I learnt about ensuring the reliability and performance of network solutions"
+                "Learnt about ensuring the reliability and performance of network solutions"
             ],
             "technologies": [
                 {
@@ -100,9 +100,9 @@
             "end": "July 2022",
             "role": "Software Developement Intern",
             "descriptions": [
-                "I created an Authentication and Authorization frameowrk for APIs, and deployed using Docker",
-                "I used FastAPI, MongoDB, Docker, and Kafka to enhance web application efficiency",
-                "I adapted to various project management tools such as Jira, Confluence, and Bit-Bucket"
+                "Created an Authentication and Authorization frameowrk for APIs, and deployed using Docker",
+                "Used FastAPI, MongoDB, Docker, and Kafka to enhance web application efficiency",
+                "Adapted to various project management tools such as Jira, Confluence, and Bit-Bucket"
             ],
             "technologies": [
                 {
