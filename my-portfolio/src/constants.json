@@ -183,12 +183,22 @@
         {
             "title": "Employee Management System",
             "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
-            "photo": "/icons/python.png",
+            "photo": "/img/intern.png",
             "description": [
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
             ],
             "link": "https://github.com/shashankp28/DBIS-Project"
+        },
+        {
+            "title": "Drone Dash",
+            "summary": "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+            "photo": "/img/drone.png",
+            "description": [
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor",
+                "lorem ipsum dolor sit amet, consectetur adipiscing elit. sed non risus. suspendisse lectus tortor"
+            ],
+            "link": "https://github.com/shashankp28/DroneDash-23"
         }
     ]
 }

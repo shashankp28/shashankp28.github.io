@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 
-export const NavBar = () => {
+export const NavBar = ({ onContactClick }) => {
 	return (
 		<div className="navbar">
 			<div className="navcontent">
@@ -23,11 +23,9 @@ export const NavBar = () => {
 								Projects
 							</li>
 						</a>
-						<a href="#contact" onClick={() => scrollToElement("contact")}>
-							<li className="listitem">
-								Contact
-							</li>
-						</a>
+						<li className="listitem" onClick={onContactClick}>
+							Contact
+						</li>
 					</ul>
 				</div>
 				<div className="icons">
