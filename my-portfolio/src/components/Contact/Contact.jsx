@@ -4,13 +4,14 @@ import "./Contact.css";
 
 const Contact = ({ onClose }) => {
   const [emailError, setEmailError] = useState("");
+  const [emailSent, setEmailSent] = useState(false);
+  const [sendError, setSendError] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const emailValue = e.target.email.value;
 
-    // Email validity check using a regular expression
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     if (!emailPattern.test(emailValue)) {
@@ -18,26 +19,29 @@ const Contact = ({ onClose }) => {
       return;
     }
 
-    // Clear the email error message if it was previously set
     setEmailError("");
 
-    emailjs.init("YOUR_USER_ID");
+    emailjs.init("NB3DYCFLOAodJwjF-");
     const templateParams = {
-      to_name: "Recipient's Name",
+      to_name: "Shashank P",
       from_name: e.target.name.value,
       from_email: emailValue,
       message: e.target.message.value,
     };
 
     emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+      .send("service_j9f15cs", "template_r8igi6c", templateParams)
       .then(
         (response) => {
           console.log("Email sent successfully:", response);
+          setEmailSent(true);
+          setSendError(""); // Clear any previous error
           e.target.reset();
         },
         (error) => {
           console.error("Error sending email:", error);
+          setEmailSent(false);
+          setSendError("Error sending email. Please try again later.");
         }
       );
   };
@@ -67,6 +71,10 @@ const Contact = ({ onClose }) => {
             <button type="submit" className="send-button">
               Send
             </button>
+            {emailSent && (
+              <p className="success-message">Email sent successfully!</p>
+            )}
+            {sendError && <p className="error-message">{sendError}</p>}
           </div>
         </form>
       </div>

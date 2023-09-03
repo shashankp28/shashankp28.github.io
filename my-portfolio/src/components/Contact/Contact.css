@@ -94,3 +94,15 @@
 .close-button {
     float: right;
 }
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.success-message {
+    color: green;
+    font-size: 15px;
+    padding-top: 8px;
+}
