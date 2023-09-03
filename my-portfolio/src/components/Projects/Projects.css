@@ -2,4 +2,78 @@
     height: 100vh;
     scroll-snap-align: center;
     color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-heading {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+}
+
+.project-block {
+    display: flex;
+    background-color: rgb(49, 53, 55);
+    border-radius: 1vh;
+    text-decoration: none;
+    color: rgb(232, 230, 227);
+    width: 40vh;
+    transition: transform 0.5s ease;
+}
+
+.project-block:hover {
+    transform: scale(1.05);
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    width: 100%;
+    text-align: center;
+}
+
+.project-image {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 8vh;
+}
+
+.project-content h2 {
+    margin: 1vh 0;
+}
+
+.project-content p {
+    font-size: 1.5vh;
+    margin: 1vh 0;
+}
+
+.project-content ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.project-content ul li {
+    margin-bottom: 0.5vh;
+}
+
+.project-list h1 {
+    text-align: center;
+    font-size: 3.6vh;
+    margin-bottom: 2vh;
 }

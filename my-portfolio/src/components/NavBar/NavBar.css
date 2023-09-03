@@ -75,8 +75,7 @@ button:hover {
     color:white;
     cursor: pointer;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
-    transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.2s ease;
 }
 
 a {
