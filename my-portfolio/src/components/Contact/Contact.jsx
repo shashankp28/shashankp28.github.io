@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
 
-const Contact = ({ onClose }) => {
+export const Contact = ({ onClose }) => {
   const [emailError, setEmailError] = useState("");
   const [emailSent, setEmailSent] = useState(false);
   const [sendError, setSendError] = useState("");
@@ -81,5 +81,3 @@ const Contact = ({ onClose }) => {
     </div>
   );
 };
-
-export default Contact;

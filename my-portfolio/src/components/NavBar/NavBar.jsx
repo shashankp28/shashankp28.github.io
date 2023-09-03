@@ -1,12 +1,12 @@
 import React from "react";
 import "./NavBar.css";
 
-export const NavBar = ({ onContactClick }) => {
+export const NavBar = ({ onContactClick, onGiftClick}) => {
 	return (
 		<div className="navbar">
 			<div className="navcontent">
 				<div className="links">
-					<img src="/icons/gift.png" alt="logo" className="logo" loading="lazy" />
+					<img src="/icons/gift.png" alt="logo" className="logo" loading="lazy" onClick={onGiftClick} />
 					<ul className="list">
 						<a href="#home" onClick={() => scrollToElement("home")}>
 							<li className="listitem">
