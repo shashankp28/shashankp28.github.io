@@ -1,5 +1,5 @@
 .projects {
-    height: 100vh;
+    height: 100%;
     scroll-snap-align: center;
     color: orange;
     display: flex;
@@ -7,27 +7,22 @@
     align-items: center;
 }
 
-.project-heading {
-    text-align: center;
-    margin-top: 2vh;
-}
-
 .project-list {
     display: flex;
     justify-content: center;
-    gap: 4vh;
+    gap: 2%;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 2vh;
+    margin-top: 2.5%;
 }
 
 .project-block {
     display: flex;
     background-color: rgb(49, 53, 55);
-    border-radius: 1vh;
+    border-radius: 5%;
     text-decoration: none;
     color: rgb(232, 230, 227);
-    width: 40vh;
+    width: 20%;
     transition: transform 0.5s ease;
 }
 
@@ -40,40 +35,39 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 2vh;
+    padding: 6%;
     width: 100%;
     text-align: center;
 }
 
 .project-image {
-    width: 8vh;
-    height: 8vh;
-    border-radius: 8vh;
+    width: 25%;
+    border-radius: 25%;
 }
 
 .project-content h2 {
-    margin: 1vh 0;
+    margin: 4% 0;
 }
 
 .project-content p {
-    font-size: 1.5vh;
-    margin: 1vh 0;
+    font-size: 90%;
+    margin: 2.5% 0;
 }
 
 .project-content ul {
     list-style: disc;
     text-align: left;
-    padding-left: 2vh;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    padding-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .project-content ul li {
-    margin-bottom: 0.5vh;
+    margin-bottom: 2%;
 }
 
 .project-list h1 {
     text-align: center;
-    font-size: 3.6vh;
-    margin-bottom: 3vh;
+    font-size: 50%;
+    margin-bottom: 8%;
 }

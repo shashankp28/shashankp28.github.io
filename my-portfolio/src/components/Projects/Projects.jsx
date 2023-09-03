@@ -7,7 +7,6 @@ export const Projects = () => {
 
   return (
     <div className="projects" id="projects">
-      <h1 className='project-heading'>Projects</h1>
       <div className="project-list">
         {projects.map((project, index) => (
           <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="project-block">
